@@ -1,0 +1,1 @@
+- debug: msg="Hello role1/task/main.yml {{main_foo}}"

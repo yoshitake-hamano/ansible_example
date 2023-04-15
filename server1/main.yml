@@ -1,0 +1,9 @@
+- hosts: server
+  tasks:
+  - debug: msg="Hello main.yml {{main_foo}}"
+  - name: import_role role1
+    import_role:
+      name: role1
+  - name: import_role role1
+    import_role:
+      name: role1
