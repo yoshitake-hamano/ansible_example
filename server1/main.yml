@@ -4,6 +4,9 @@
   - name: import_role role1
     import_role:
       name: role1
+  - name: import_role role2
+    import_role:
+      name: role2
   - name: import_role role1
     import_role:
       name: role1
