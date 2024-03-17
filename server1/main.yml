@@ -2,11 +2,17 @@
   tasks:
   - debug: msg="Hello main.yml {{main_foo}}"
   - name: import_role role1
+    tags:
+      - tag1
     import_role:
       name: role1
   - name: import_role role2
+    tags:
+      - tag2
     import_role:
       name: role2
   - name: import_role role1
+    tags:
+      - tag1
     import_role:
       name: role1
